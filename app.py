@@ -14,7 +14,7 @@ from authlib.integrations.flask_client import OAuth
 from six.moves.urllib.parse import urlencode
 from config import SECRET_KEY
 
-AUTH0_CALLBACK_URL = 'http://127.0.0.1:5000'
+AUTH0_CALLBACK_URL = 'https://fyyur-casting-agency.herokuapp.com/'
 AUTH0_CLIENT_ID = '8g6QGNtR46lknRCWcl70du677jY51SbN'
 AUTH0_CLIENT_SECRET = os.getenv('AUTH0_CLIENT_SECRET')
 AUTH0_DOMAIN = 'dev-fa25pxj9.us.auth0.com'
@@ -73,7 +73,7 @@ def index():
 def login():
     print('Audience: {}'.format(AUTH0_AUDIENCE)) 
     return auth0.authorize_redirect(
-    	redirect_uri='http://127.0.0.1:5000/post-login', 
+    	redirect_uri='https://fyyur-casting-agency.herokuapp.com/post-login', 
     	audience=AUTH0_AUDIENCE
 	)
 
