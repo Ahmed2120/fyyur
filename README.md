@@ -69,15 +69,15 @@ Users can access the app's homepage anonymously and its functionality via two ro
 1. <strong>Casting assistant</strong>: Can view upcoming movie projects and listed actors and see details about both
 ```
 Casting assistant login credentials
-User: fyyur.casting.assistant@gmail.com
-Password: Auth0123!
+User: ahmeedashraaf@gmail.com
+Password: 12345#aA
 ```
 
 2. <strong>Executive producer</strong>: Full access, with the ability to view, list, update, and delete both movie projects and actors
 ```
 Executive producer login credentials
-User: shanna.rhymes@gmail.com
-Password: Auth0123! 
+User: ahmaaaaaaad@gmail.com
+Password: 12345#aA
 ```
 
 ### API endpoints
