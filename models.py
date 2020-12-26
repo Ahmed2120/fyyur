@@ -5,7 +5,7 @@ from flask_migrate import Migrate
 from sqlalchemy.orm import relationship, sessionmaker
 import json, sys
 
-#os.environ['DB_CONN'] = 'postgres://claireperacchio@localhost:5432/capstone'
+#os.environ['DB_CONN'] = 'postgres://nnpeyoequmfuja:29801713602a8a00efc2ac4cc1dacd1306026a43be1ff6951ee858389497fac3@ec2-54-84-98-18.compute-1.amazonaws.com:5432/dfv38m47m5p1pt'
 database_path = 'postgresql://postgres:ahmedpost@localhost:5432/newcast'
 
 db = SQLAlchemy()
