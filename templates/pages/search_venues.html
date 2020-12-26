@@ -1,0 +1,17 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Casting Agency | movies{% endblock %}
+{% block content %}
+<h3>Number of search results for "{{ search_term }}": {{ results.count() }}</h3>
+<ul class="items">
+	{% for movie in results %}
+	<li>
+		<a href="/movies/{{ movie.id }}">
+			<img src="{{ movie.image_link }}" alt="Movie Image" style="border-radius: 50%; width: 49px; height: 44px;" />
+			<div class="item">
+				<h5>{{ movie.name }}</h5>
+			</div>
+		</a>
+	</li>
+	{% endfor %}
+</ul>
+{% endblock %}
